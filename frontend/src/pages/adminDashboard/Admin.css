@@ -1,0 +1,68 @@
+.customer-order {
+    width: 285px;
+    margin: 0px 25px 40px 25px;
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #ddd;
+    height:250px;
+    color: inherit;
+  }
+  
+
+  .customer-order:link { text-decoration: none; }
+  .customer-order:visited { text-decoration: none; }
+  .customer-order:active { text-decoration: none; }
+
+  
+  .customer-order:hover{
+    background-color: #E8F5F7;
+    transform: scale(1.02);
+  }
+
+  .customer-center{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 1.5em;
+  }
+
+  .customer-hr{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+  .customer-name{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 15px;
+  }
+
+  .customer-contact{
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .customer-residence{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+
+  .customer-price{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-weight: 900;
+    padding-top:30px;
+  }
